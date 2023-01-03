@@ -238,14 +238,14 @@ class SecondPage extends StatelessWidget {
           actions: const [Icon(Icons.shopify_outlined)],
         ),
         floatingActionButton: FloatingActionButton(onPressed: () {
-          Get.back(result: "Yo From Floating");
+          Get.back(result: "Yo From Floating Button");
         }),
         body: Column(
           children: [
             Center(child: Text(arg.isEmpty ? "Empty" : arg)),
             ElevatedButton(
                 onPressed: () {
-                  Get.back(result: "Yo From Middle");
+                  Get.back(result: "Yo From Middle Button");
                 },
                 child: const Text("BACK TO HOME"))
           ],
